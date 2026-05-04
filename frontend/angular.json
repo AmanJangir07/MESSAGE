@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "b9686f6a-1844-442e-9c49-4daa33d0f79a"
+    "analytics": "66329136-1f81-4910-9f12-13fcba36ecd2"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "AVI_MESSAGE": {
+    "frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AVI_MESSAGE:build:production"
+              "buildTarget": "frontend:build:production"
             },
             "development": {
-              "buildTarget": "AVI_MESSAGE:build:development"
+              "buildTarget": "frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
