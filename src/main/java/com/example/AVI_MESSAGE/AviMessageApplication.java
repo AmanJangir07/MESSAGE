@@ -6,12 +6,11 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EntityScan("com.avi_message.entity")
-@EnableJpaRepositories("com.avi_message.repository")
+@EntityScan("com.example.AVI_MESSAGE.entity")
+@EnableJpaRepositories("com.example.AVI_MESSAGE.repository")
 public class AviMessageApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AviMessageApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(AviMessageApplication.class, args);
+    }
 }
